@@ -8,37 +8,66 @@
 </head>
 <body>
 <header>
-    <h1><b>Go愛好家コミュニティ</b></h1>
+    <h1><strong>Go愛好家コミュニティ</strong></h1>
     <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>News</li>
-        <li>Contact</li>
+        <a>
+            <li>Home</li>
+        </a>
+        <a>
+            <li>About</li>
+        </a>
+        <a>
+            <li>News</li>
+        </a>
+        <a>
+            <li>Contact</li>
+        </a>
     </ul>
 </header>
 <main>
-    <h2><b>Go言語のマスコットキャラクター</b></h2>
-     <img src="./img/go-gopher.webp">
-    <h2><b>このコミュニティについて</b></h2>
-     <p>Go言語コミュニティは、Go言語を愛する人たちのためのコミュニティです。加入するためにはGopherの人形を購入することが必要です。</p>
-    <h2><b>ニュース</b></h2>
-     <ul>
-         <li>・Go言語愛好家グッズを販売しています</li>
-         <li>・Go言語愛好家グッズを販売しています</li>
-         <li>・Go言語愛好家グッズを販売しています</li>
-     </ul>
-    <h2><b>コミュニティ概要</b></h2>
-      <p><b>設立日</b>2023年5月3日</p>
-      <p><b>　長　</b>市川詩恩</p>
-      <p><b>所在地</b>横浜国立大学</p>
-      <p><b>会員数</b>70億人</p>
+    <h2><strong>Go言語のマスコットキャラクター</strong></h2>
+    <img src="./img/go-gopher.webp" alt="画像の説明文">
+    <h2><strong>このコミュニティについて</strong></h2>
+    <p>Go言語コミュニティは、Go言語を愛する人たちのためのコミュニティです。加入するためにはGopherの人形を購入することが必要です。</p>
+    <h2><strong>ニュース</strong></h2>
+    <ul>
+        <li>Go言語愛好家グッズを販売しています</li>
+        <li>Go言語愛好家グッズを販売しています</li>
+        <li>Go言語愛好家グッズを販売しています</li>
+    </ul>
+    <h2><strong>コミュニティ概要</strong></h2>
+    <table>
+        <tr>
+            <td><strong>設立日</strong></td>
+            <td>2023年5月3日</td>
+        </tr>
+        <tr>
+            <td><strong>　長　</strong></td>
+            <td>市川　詩恩</td>
+        </tr>
+        <tr>
+            <td><strong>所在地</strong></td>
+            <td>横浜国立大学</td>
+        </tr>
+        <tr>
+            <td><strong>会員数</strong></td>
+            <td>70億人</td>
+        </tr>
+
+    </table>
 </main>
 <footer>
-    <h2><b>お問い合わせ</b></h2>
-    <p>お名前<label><input></label></p>
-    <p>メールアドレス<label><input></label></p>
-    <p>お問い合わせ内容<label><textarea></textarea></label></p>
-    <input type="submit">
+    <form action="送信先URL" method="post">
+
+        <h2><strong>お問い合わせ</strong></h2>
+        <label for="Name">お名前</label>
+        <input name="Name" style="display: block">
+        <label for="e-mail">メールアドレス</label>
+        <textarea name="e-mail" style="display: block"></textarea>
+        <label for="message">お問い合わせ内容</label>
+        <textarea name="message" style="display: block"></textarea>
+        <input type="submit">
+    </form>
 
     <p>YNUFES TECH</p>
 </footer>
